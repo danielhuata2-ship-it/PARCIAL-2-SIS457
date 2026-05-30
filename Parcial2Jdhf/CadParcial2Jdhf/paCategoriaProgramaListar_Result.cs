@@ -10,23 +10,13 @@
 namespace CadParcial2Jdhf
 {
     using System;
-    using System.Collections.Generic;
     
-    public partial class Programa
+    public partial class paCategoriaProgramaListar_Result
     {
         public int id { get; set; }
-        public int idCanal { get; set; }
-        public int idCategoriaPrograma { get; set; }
-        public string titulo { get; set; }
-        public string descripcion { get; set; }
-        public int duracion { get; set; }
-        public string productor { get; set; }
-        public System.DateTime fechaEstreno { get; set; }
+        public string nombre { get; set; }
         public short estado { get; set; }
         public string usuarioRegistro { get; set; }
         public System.DateTime fechaRegistro { get; set; }
-    
-        public virtual Canal Canal { get; set; }
-        public virtual CategoriaPrograma CategoriaPrograma { get; set; }
     }
 }

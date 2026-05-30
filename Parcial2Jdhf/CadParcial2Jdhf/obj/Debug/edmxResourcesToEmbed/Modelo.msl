@@ -1,34 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-  <EntityContainerMapping StorageEntityContainer="Parcial2JdhfModelStoreContainer" CdmEntityContainer="Parcial2JdhfEntities">
-    <EntitySetMapping Name="Canal">
-      <EntityTypeMapping TypeName="Parcial2JdhfModel.Canal">
-        <MappingFragment StoreEntitySet="Canal">
-          <ScalarProperty Name="id" ColumnName="id" />
-          <ScalarProperty Name="nombre" ColumnName="nombre" />
-          <ScalarProperty Name="frecuencia" ColumnName="frecuencia" />
-          <ScalarProperty Name="estado" ColumnName="estado" />
-          <ScalarProperty Name="usuarioRegistro" ColumnName="usuarioRegistro" />
-          <ScalarProperty Name="fechaRegistro" ColumnName="fechaRegistro" />
-        </MappingFragment>
-      </EntityTypeMapping>
-    </EntitySetMapping>
-    <EntitySetMapping Name="Programa">
-      <EntityTypeMapping TypeName="Parcial2JdhfModel.Programa">
-        <MappingFragment StoreEntitySet="Programa">
-          <ScalarProperty Name="id" ColumnName="id" />
-          <ScalarProperty Name="idCanal" ColumnName="idCanal" />
-          <ScalarProperty Name="titulo" ColumnName="titulo" />
-          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
-          <ScalarProperty Name="duracion" ColumnName="duracion" />
-          <ScalarProperty Name="productor" ColumnName="productor" />
-          <ScalarProperty Name="fechaEstreno" ColumnName="fechaEstreno" />
-          <ScalarProperty Name="estado" ColumnName="estado" />
-          <ScalarProperty Name="usuarioRegistro" ColumnName="usuarioRegistro" />
-          <ScalarProperty Name="fechaRegistro" ColumnName="fechaRegistro" />
-        </MappingFragment>
-      </EntityTypeMapping>
-    </EntitySetMapping>
+  <EntityContainerMapping StorageEntityContainer="Parcial2JdhfModelStoreContainer" CdmEntityContainer="Parcial2JdhfEntities1">
     <FunctionImportMapping FunctionImportName="paCanalListar" FunctionName="Parcial2JdhfModel.Store.paCanalListar">
       <ResultMapping>
         <ComplexTypeMapping TypeName="Parcial2JdhfModel.paCanalListar_Result">
@@ -41,12 +13,25 @@
         </ComplexTypeMapping>
       </ResultMapping>
     </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="paCategoriaProgramaListar" FunctionName="Parcial2JdhfModel.Store.paCategoriaProgramaListar">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Parcial2JdhfModel.paCategoriaProgramaListar_Result">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="estado" ColumnName="estado" />
+          <ScalarProperty Name="usuarioRegistro" ColumnName="usuarioRegistro" />
+          <ScalarProperty Name="fechaRegistro" ColumnName="fechaRegistro" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
     <FunctionImportMapping FunctionImportName="paProgramaListar" FunctionName="Parcial2JdhfModel.Store.paProgramaListar">
       <ResultMapping>
         <ComplexTypeMapping TypeName="Parcial2JdhfModel.paProgramaListar_Result">
           <ScalarProperty Name="id" ColumnName="id" />
           <ScalarProperty Name="idCanal" ColumnName="idCanal" />
+          <ScalarProperty Name="idCategoriaPrograma" ColumnName="idCategoriaPrograma" />
           <ScalarProperty Name="nombreCanal" ColumnName="nombreCanal" />
+          <ScalarProperty Name="nombreCategoriaPrograma" ColumnName="nombreCategoriaPrograma" />
           <ScalarProperty Name="titulo" ColumnName="titulo" />
           <ScalarProperty Name="descripcion" ColumnName="descripcion" />
           <ScalarProperty Name="duracion" ColumnName="duracion" />
@@ -58,5 +43,45 @@
         </ComplexTypeMapping>
       </ResultMapping>
     </FunctionImportMapping>
+    <EntitySetMapping Name="Canal">
+      <EntityTypeMapping TypeName="Parcial2JdhfModel.Canal">
+        <MappingFragment StoreEntitySet="Canal">
+          <ScalarProperty Name="fechaRegistro" ColumnName="fechaRegistro" />
+          <ScalarProperty Name="usuarioRegistro" ColumnName="usuarioRegistro" />
+          <ScalarProperty Name="estado" ColumnName="estado" />
+          <ScalarProperty Name="frecuencia" ColumnName="frecuencia" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CategoriaPrograma">
+      <EntityTypeMapping TypeName="Parcial2JdhfModel.CategoriaPrograma">
+        <MappingFragment StoreEntitySet="CategoriaPrograma">
+          <ScalarProperty Name="fechaRegistro" ColumnName="fechaRegistro" />
+          <ScalarProperty Name="usuarioRegistro" ColumnName="usuarioRegistro" />
+          <ScalarProperty Name="estado" ColumnName="estado" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Programa">
+      <EntityTypeMapping TypeName="Parcial2JdhfModel.Programa">
+        <MappingFragment StoreEntitySet="Programa">
+          <ScalarProperty Name="fechaRegistro" ColumnName="fechaRegistro" />
+          <ScalarProperty Name="usuarioRegistro" ColumnName="usuarioRegistro" />
+          <ScalarProperty Name="estado" ColumnName="estado" />
+          <ScalarProperty Name="fechaEstreno" ColumnName="fechaEstreno" />
+          <ScalarProperty Name="productor" ColumnName="productor" />
+          <ScalarProperty Name="duracion" ColumnName="duracion" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+          <ScalarProperty Name="titulo" ColumnName="titulo" />
+          <ScalarProperty Name="idCategoriaPrograma" ColumnName="idCategoriaPrograma" />
+          <ScalarProperty Name="idCanal" ColumnName="idCanal" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
   </EntityContainerMapping>
 </Mapping>

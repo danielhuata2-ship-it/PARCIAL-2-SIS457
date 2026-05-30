@@ -15,7 +15,9 @@ namespace CadParcial2Jdhf
     {
         public int id { get; set; }
         public int idCanal { get; set; }
+        public int idCategoriaPrograma { get; set; }
         public string nombreCanal { get; set; }
+        public string nombreCategoriaPrograma { get; set; }
         public string titulo { get; set; }
         public string descripcion { get; set; }
         public int duracion { get; set; }

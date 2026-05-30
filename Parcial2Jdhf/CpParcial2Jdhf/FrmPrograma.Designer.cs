@@ -61,6 +61,9 @@
             this.erpDuracion = new System.Windows.Forms.ErrorProvider(this.components);
             this.erpProductor = new System.Windows.Forms.ErrorProvider(this.components);
             this.erpFechaCreacion = new System.Windows.Forms.ErrorProvider(this.components);
+            this.cbxCategoria = new System.Windows.Forms.ComboBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.erpCategoria = new System.Windows.Forms.ErrorProvider(this.components);
             this.gbxListado.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvLista)).BeginInit();
             this.pnlAcciones.SuspendLayout();
@@ -72,6 +75,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.erpDuracion)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.erpProductor)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.erpFechaCreacion)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.erpCategoria)).BeginInit();
             this.SuspendLayout();
             // 
             // txtParametro
@@ -203,6 +207,8 @@
             // 
             // gbxDatos
             // 
+            this.gbxDatos.Controls.Add(this.label3);
+            this.gbxDatos.Controls.Add(this.cbxCategoria);
             this.gbxDatos.Controls.Add(this.cbxCanal);
             this.gbxDatos.Controls.Add(this.btnGuardar);
             this.gbxDatos.Controls.Add(this.btnCancelar);
@@ -414,6 +420,30 @@
             // 
             this.erpFechaCreacion.ContainerControl = this;
             // 
+            // cbxCategoria
+            // 
+            this.cbxCategoria.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbxCategoria.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.cbxCategoria.FormattingEnabled = true;
+            this.cbxCategoria.Location = new System.Drawing.Point(518, 115);
+            this.cbxCategoria.Name = "cbxCategoria";
+            this.cbxCategoria.Size = new System.Drawing.Size(167, 28);
+            this.cbxCategoria.TabIndex = 23;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.label3.Location = new System.Drawing.Point(348, 121);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(92, 20);
+            this.label3.TabIndex = 14;
+            this.label3.Text = "Categoria:";
+            // 
+            // erpCategoria
+            // 
+            this.erpCategoria.ContainerControl = this;
+            // 
             // FrmPrograma
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
@@ -445,6 +475,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.erpDuracion)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.erpProductor)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.erpFechaCreacion)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.erpCategoria)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -484,5 +515,8 @@
         private System.Windows.Forms.ErrorProvider erpDuracion;
         private System.Windows.Forms.ErrorProvider erpProductor;
         private System.Windows.Forms.ErrorProvider erpFechaCreacion;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.ComboBox cbxCategoria;
+        private System.Windows.Forms.ErrorProvider erpCategoria;
     }
 }

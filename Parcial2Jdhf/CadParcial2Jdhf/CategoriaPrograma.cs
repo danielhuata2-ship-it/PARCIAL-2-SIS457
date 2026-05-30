@@ -12,21 +12,21 @@ namespace CadParcial2Jdhf
     using System;
     using System.Collections.Generic;
     
-    public partial class Programa
+    public partial class CategoriaPrograma
     {
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
+        public CategoriaPrograma()
+        {
+            this.Programa = new HashSet<Programa>();
+        }
+    
         public int id { get; set; }
-        public int idCanal { get; set; }
-        public int idCategoriaPrograma { get; set; }
-        public string titulo { get; set; }
-        public string descripcion { get; set; }
-        public int duracion { get; set; }
-        public string productor { get; set; }
-        public System.DateTime fechaEstreno { get; set; }
+        public string nombre { get; set; }
         public short estado { get; set; }
         public string usuarioRegistro { get; set; }
         public System.DateTime fechaRegistro { get; set; }
     
-        public virtual Canal Canal { get; set; }
-        public virtual CategoriaPrograma CategoriaPrograma { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<Programa> Programa { get; set; }
     }
 }

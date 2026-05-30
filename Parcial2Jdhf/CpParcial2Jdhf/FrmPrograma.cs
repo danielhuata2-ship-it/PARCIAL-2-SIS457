@@ -29,10 +29,12 @@ namespace CpParcial2Jdhf
             dgvLista.Refresh();
             dgvLista.Columns["id"].Visible = false;
             dgvLista.Columns["idCanal"].Visible = false;
+            dgvLista.Columns["idCategoriaPrograma"].Visible = false;
             dgvLista.Columns["estado"].Visible = false;
             dgvLista.Columns["titulo"].HeaderText = "Título";
             dgvLista.Columns["descripcion"].HeaderText = "Descripción";
             dgvLista.Columns["nombreCanal"].HeaderText = "Nombre Canal";
+            dgvLista.Columns["nombreCategoriaPrograma"].HeaderText = "Nombre Categoria";
             dgvLista.Columns["duracion"].HeaderText = "Duración";
             dgvLista.Columns["productor"].HeaderText = "Productor";
             dgvLista.Columns["fechaEstreno"].HeaderText = "Fecha de Estreno";
@@ -51,11 +53,21 @@ namespace CpParcial2Jdhf
             cbxCanal.SelectedIndex = -1;
         }
 
+        private void cargarCategoriaPrograma()
+        {
+            var lista = CategoriaProgramaCln.listar();
+            cbxCategoria.DataSource = lista;
+            cbxCategoria.ValueMember = "id";
+            cbxCategoria.DisplayMember = "nombre";
+            cbxCategoria.SelectedIndex = -1;
+        }
+
         private void FrmPrograma_Load(object sender, EventArgs e)
         {
             Size = new Size(932, 405);
             listar();
             cargarCanal();
+            cargarCategoriaPrograma();
         }
 
         private void btnCrear_Click(object sender, EventArgs e)
@@ -74,6 +86,7 @@ namespace CpParcial2Jdhf
             erpDuracion.Clear();
             erpProductor.Clear();
             erpFechaCreacion.Clear();
+            erpCategoria.Clear();
         }
         private void limpiar()
         {
@@ -83,6 +96,7 @@ namespace CpParcial2Jdhf
             nudDuracion.Value = 0;
             txtProductor.Clear();
             dtpFechaCreacion.Value = DateTime.Now;
+            cbxCategoria.SelectedIndex = -1;
         }
 
         private void btnEditar_Click(object sender, EventArgs e)
@@ -94,6 +108,7 @@ namespace CpParcial2Jdhf
             int id = (int)dgvLista.CurrentRow.Cells["id"].Value;
             var programa = ProgramaCln.obtenerUno(id);
             cbxCanal.SelectedValue = programa.idCanal;
+            cbxCategoria.SelectedValue = programa.idCategoriaPrograma;
             txtTitulo.Text = programa.titulo;
             txtDescripcion.Text = programa.descripcion;
             nudDuracion.Value = programa.duracion;
@@ -126,6 +141,11 @@ namespace CpParcial2Jdhf
             if (string.IsNullOrEmpty(cbxCanal.Text))
             {
                 erpCanal.SetError(cbxCanal, "El Canal es obligatorio");
+                esValido = false;
+            }
+            if (string.IsNullOrEmpty(cbxCategoria.Text))
+            {
+                erpCategoria.SetError(cbxCategoria, "La Categoria es obligatoria");
                 esValido = false;
             }
             if (string.IsNullOrEmpty(txtTitulo.Text))
@@ -165,6 +185,7 @@ namespace CpParcial2Jdhf
                 programa.descripcion = txtDescripcion.Text.Trim();
                 programa.productor = txtProductor.Text.Trim();
                 programa.idCanal = (int)cbxCanal.SelectedValue;
+                programa.idCategoriaPrograma = (int)cbxCategoria.SelectedValue;
                 programa.duracion = (int)nudDuracion.Value;
                 programa.fechaEstreno = dtpFechaCreacion.Value;
 
@@ -184,6 +205,7 @@ namespace CpParcial2Jdhf
                 else
                 {
                     programa.id = (int)dgvLista.CurrentRow.Cells["id"].Value;
+                    programa.idCategoriaPrograma = (int)cbxCategoria.SelectedValue;
                     programa.fechaRegistro = DateTime.Now;
 
                     ProgramaCln.actualizar(programa);

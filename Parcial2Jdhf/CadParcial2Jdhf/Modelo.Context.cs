@@ -15,10 +15,10 @@ namespace CadParcial2Jdhf
     using System.Data.Entity.Core.Objects;
     using System.Linq;
     
-    public partial class Parcial2JdhfEntities : DbContext
+    public partial class Parcial2JdhfEntities1 : DbContext
     {
-        public Parcial2JdhfEntities()
-            : base("name=Parcial2JdhfEntities")
+        public Parcial2JdhfEntities1()
+            : base("name=Parcial2JdhfEntities1")
         {
         }
     
@@ -28,6 +28,7 @@ namespace CadParcial2Jdhf
         }
     
         public virtual DbSet<Canal> Canal { get; set; }
+        public virtual DbSet<CategoriaPrograma> CategoriaPrograma { get; set; }
         public virtual DbSet<Programa> Programa { get; set; }
     
         public virtual ObjectResult<paCanalListar_Result> paCanalListar(string parametro)
@@ -37,6 +38,15 @@ namespace CadParcial2Jdhf
                 new ObjectParameter("parametro", typeof(string));
     
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<paCanalListar_Result>("paCanalListar", parametroParameter);
+        }
+    
+        public virtual ObjectResult<paCategoriaProgramaListar_Result> paCategoriaProgramaListar(string parametro)
+        {
+            var parametroParameter = parametro != null ?
+                new ObjectParameter("parametro", parametro) :
+                new ObjectParameter("parametro", typeof(string));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<paCategoriaProgramaListar_Result>("paCategoriaProgramaListar", parametroParameter);
         }
     
         public virtual ObjectResult<paProgramaListar_Result> paProgramaListar(string parametro)

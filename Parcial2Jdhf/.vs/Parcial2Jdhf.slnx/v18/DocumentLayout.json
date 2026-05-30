@@ -3,16 +3,43 @@
   "WorkspaceRootPath": "C:\\Users\\CORE i5\\Desktop\\SIS 457 2do parcial\\Parcial2Jdhf\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4377366A-CF7E-4211-BA9F-BE598AA72CA6}|CadParcial2Jdhf\\CadParcial2Jdhf.csproj|c:\\users\\core i5\\desktop\\sis 457 2do parcial\\parcial2jdhf\\cadparcial2jdhf\\modelo.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{4377366A-CF7E-4211-BA9F-BE598AA72CA6}|CadParcial2Jdhf\\CadParcial2Jdhf.csproj|solutionrelative:cadparcial2jdhf\\modelo.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Parcial2Jdhf/True/SqlTable/dbo.CategoriaPrograma.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\CORE i5\\Desktop\\SIS 457 2do parcial\\Parcial2Jdhf\\Parcial2Jdhf.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Parcial2Jdhf.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{831AAB2F-D154-49D6-AB1F-8C7F1F4D4A43}|CpParcial2Jdhf\\CpParcial2Jdhf.csproj|c:\\users\\core i5\\desktop\\sis 457 2do parcial\\parcial2jdhf\\cpparcial2jdhf\\frmprograma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{831AAB2F-D154-49D6-AB1F-8C7F1F4D4A43}|CpParcial2Jdhf\\CpParcial2Jdhf.csproj|solutionrelative:cpparcial2jdhf\\frmprograma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDBACE34-D90C-46FA-B762-B79C12785D08}|ClnParcial2Jdhf\\ClnParcial2Jdhf.csproj|c:\\users\\core i5\\desktop\\sis 457 2do parcial\\parcial2jdhf\\clnparcial2jdhf\\clncanal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDBACE34-D90C-46FA-B762-B79C12785D08}|ClnParcial2Jdhf\\ClnParcial2Jdhf.csproj|solutionrelative:clnparcial2jdhf\\clncanal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDBACE34-D90C-46FA-B762-B79C12785D08}|ClnParcial2Jdhf\\ClnParcial2Jdhf.csproj|C:\\Users\\CORE i5\\Desktop\\SIS 457 2do parcial\\Parcial2Jdhf\\clnparcial2jdhf\\clnprograma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDBACE34-D90C-46FA-B762-B79C12785D08}|ClnParcial2Jdhf\\ClnParcial2Jdhf.csproj|solutionrelative:clnparcial2jdhf\\clnprograma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{831AAB2F-D154-49D6-AB1F-8C7F1F4D4A43}|CpParcial2Jdhf\\CpParcial2Jdhf.csproj|C:\\Users\\CORE i5\\Desktop\\SIS 457 2do parcial\\Parcial2Jdhf\\cpparcial2jdhf\\frmprograma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{831AAB2F-D154-49D6-AB1F-8C7F1F4D4A43}|CpParcial2Jdhf\\CpParcial2Jdhf.csproj|solutionrelative:cpparcial2jdhf\\frmprograma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FDBACE34-D90C-46FA-B762-B79C12785D08}|ClnParcial2Jdhf\\ClnParcial2Jdhf.csproj|C:\\Users\\CORE i5\\Desktop\\SIS 457 2do parcial\\Parcial2Jdhf\\clnparcial2jdhf\\clnprograma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FDBACE34-D90C-46FA-B762-B79C12785D08}|ClnParcial2Jdhf\\ClnParcial2Jdhf.csproj|solutionrelative:clnparcial2jdhf\\clnprograma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FDBACE34-D90C-46FA-B762-B79C12785D08}|ClnParcial2Jdhf\\ClnParcial2Jdhf.csproj|c:\\users\\core i5\\desktop\\sis 457 2do parcial\\parcial2jdhf\\clnparcial2jdhf\\clncategoriaprograma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDBACE34-D90C-46FA-B762-B79C12785D08}|ClnParcial2Jdhf\\ClnParcial2Jdhf.csproj|solutionrelative:clnparcial2jdhf\\clncategoriaprograma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\CORE i5\\Desktop\\SIS 457 2do parcial\\Parcial2Jdhf\\Parcial2Jdhf.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Parcial2Jdhf.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\CORE i5\\Desktop\\SIS 457 2do parcial\\Parcial2Jdhf\\Parcial2Jdhf.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Parcial2Jdhf.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,19 +54,78 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "dbo.CategoriaPrograma [Datos]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Parcial2Jdhf/True/SqlTable/dbo.CategoriaPrograma.sql",
+              "ToolTip": "dbo.CategoriaPrograma [Datos]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-05-30T15:12:06.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Modelo.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\CORE i5\\Desktop\\SIS 457 2do parcial\\Parcial2Jdhf\\CadParcial2Jdhf\\Modelo.edmx",
+              "RelativeDocumentMoniker": "CadParcial2Jdhf\\Modelo.edmx",
+              "ToolTip": "C:\\Users\\CORE i5\\Desktop\\SIS 457 2do parcial\\Parcial2Jdhf\\CadParcial2Jdhf\\Modelo.edmx [Diagram1]",
+              "RelativeToolTip": "CadParcial2Jdhf\\Modelo.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2026-05-30T14:50:07.842Z",
+              "EditorCaption": " [Diagram1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ClnCanal.cs",
+              "DocumentMoniker": "C:\\Users\\CORE i5\\Desktop\\SIS 457 2do parcial\\Parcial2Jdhf\\ClnParcial2Jdhf\\ClnCanal.cs",
+              "RelativeDocumentMoniker": "ClnParcial2Jdhf\\ClnCanal.cs",
+              "ToolTip": "C:\\Users\\CORE i5\\Desktop\\SIS 457 2do parcial\\Parcial2Jdhf\\ClnParcial2Jdhf\\ClnCanal.cs",
+              "RelativeToolTip": "ClnParcial2Jdhf\\ClnCanal.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T14:17:32.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ClnCategoriaPrograma.cs",
+              "DocumentMoniker": "C:\\Users\\CORE i5\\Desktop\\SIS 457 2do parcial\\Parcial2Jdhf\\ClnParcial2Jdhf\\ClnCategoriaPrograma.cs",
+              "RelativeDocumentMoniker": "ClnParcial2Jdhf\\ClnCategoriaPrograma.cs",
+              "ToolTip": "C:\\Users\\CORE i5\\Desktop\\SIS 457 2do parcial\\Parcial2Jdhf\\ClnParcial2Jdhf\\ClnCategoriaPrograma.cs",
+              "RelativeToolTip": "ClnParcial2Jdhf\\ClnCategoriaPrograma.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAwwDMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T14:17:21.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Parcial2Jdhf.sql ",
+              "DocumentMoniker": "C:\\Users\\CORE i5\\Desktop\\SIS 457 2do parcial\\Parcial2Jdhf\\Parcial2Jdhf.sql",
+              "RelativeDocumentMoniker": "Parcial2Jdhf.sql",
+              "ToolTip": "Parcial2Jdhf.sql ",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-05-30T13:40:51.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "FrmPrograma.cs",
               "DocumentMoniker": "C:\\Users\\CORE i5\\Desktop\\SIS 457 2do parcial\\Parcial2Jdhf\\CpParcial2Jdhf\\FrmPrograma.cs",
               "RelativeDocumentMoniker": "CpParcial2Jdhf\\FrmPrograma.cs",
               "ToolTip": "C:\\Users\\CORE i5\\Desktop\\SIS 457 2do parcial\\Parcial2Jdhf\\CpParcial2Jdhf\\FrmPrograma.cs",
               "RelativeToolTip": "CpParcial2Jdhf\\FrmPrograma.cs",
-              "ViewState": "AgIAAIQAAAAAAAAAAADwv5oAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAYwEUAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-29T21:22:57.143Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "FrmPrograma.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\CORE i5\\Desktop\\SIS 457 2do parcial\\Parcial2Jdhf\\CpParcial2Jdhf\\FrmPrograma.cs",
               "RelativeDocumentMoniker": "CpParcial2Jdhf\\FrmPrograma.cs",
@@ -51,15 +137,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "ClnPrograma.cs",
               "DocumentMoniker": "C:\\Users\\CORE i5\\Desktop\\SIS 457 2do parcial\\Parcial2Jdhf\\ClnParcial2Jdhf\\ClnPrograma.cs",
               "RelativeDocumentMoniker": "ClnParcial2Jdhf\\ClnPrograma.cs",
               "ToolTip": "C:\\Users\\CORE i5\\Desktop\\SIS 457 2do parcial\\Parcial2Jdhf\\ClnParcial2Jdhf\\ClnPrograma.cs",
               "RelativeToolTip": "ClnParcial2Jdhf\\ClnPrograma.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAwwEgAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAwwDIAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-29T20:14:17.702Z"
+              "WhenOpened": "2026-05-29T20:14:17.702Z",
+              "EditorCaption": ""
             }
           ]
         }

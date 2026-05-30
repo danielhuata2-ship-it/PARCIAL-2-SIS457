@@ -7,26 +7,25 @@ using System.Threading.Tasks;
 
 namespace ClnParcial2Jdhf
 {
-    public class CanalCln
+    public class CategoriaProgramaCln
     {
-        public static int insertar(Canal canal)
+        public static int insertar(CategoriaPrograma categoriaPrograma)
         {
             using (var context = new Parcial2JdhfEntities1())
             {
-                context.Canal.Add(canal);
+                context.CategoriaPrograma.Add(categoriaPrograma);
                 context.SaveChanges();
-                return canal.id;
+                return categoriaPrograma.id;
             }
         }
 
-        public static int actualizar(Canal canal)
+        public static int actualizar(CategoriaPrograma categoriaPrograma)
         {
             using (var context = new Parcial2JdhfEntities1())
             {
-                var existe = context.Canal.Find(canal.id);
-                existe.nombre = canal.nombre;
-                existe.frecuencia = canal.frecuencia;
-                existe.estado = canal.estado;
+                var existe = context.CategoriaPrograma.Find(categoriaPrograma.id);
+                existe.nombre = categoriaPrograma.nombre;
+                existe.estado = categoriaPrograma.estado;
                 return context.SaveChanges();
             }
         }
@@ -35,31 +34,35 @@ namespace ClnParcial2Jdhf
         {
             using (var context = new Parcial2JdhfEntities1())
             {
-                var existe = context.Canal.Find(id);
+                var existe = context.CategoriaPrograma.Find(id);
                 existe.estado = -1;
                 return context.SaveChanges();
             }
         }
-        public static Canal obtenerUno(int id)
+
+        public static CategoriaPrograma obtenerUno(int id)
         {
             using (var context = new Parcial2JdhfEntities1())
             {
-                return context.Canal.Find(id);
-            }
-        }
-        public static List<Canal> listar()
-        {
-            using (var context = new Parcial2JdhfEntities1())
-            {
-                return context.Canal.Where(x => x.estado != -1).ToList();
+                return context.CategoriaPrograma.Find(id);
             }
         }
 
-        public static List<paCanalListar_Result> listarPa(string parametro)
+        public static List<CategoriaPrograma> listar()
         {
             using (var context = new Parcial2JdhfEntities1())
             {
-                return context.paCanalListar(parametro).ToList();
+                return context.CategoriaPrograma
+                    .Where(x => x.estado != -1)
+                    .ToList();
+            }
+        }
+
+        public static List<paCategoriaProgramaListar_Result> listarPa(string parametro)
+        {
+            using (var context = new Parcial2JdhfEntities1())
+            {
+                return context.paCategoriaProgramaListar(parametro).ToList();
             }
         }
     }

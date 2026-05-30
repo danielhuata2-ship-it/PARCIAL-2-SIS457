@@ -11,7 +11,7 @@ namespace ClnParcial2Jdhf
     {
         public static int insertar(Programa programa)
         {
-            using (var context = new Parcial2JdhfEntities())
+            using (var context = new Parcial2JdhfEntities1())
             {
                 context.Programa.Add(programa);
                 context.SaveChanges();
@@ -21,10 +21,12 @@ namespace ClnParcial2Jdhf
 
         public static int actualizar(Programa programa)
         {
-            using (var context = new Parcial2JdhfEntities())
+            using (var context = new Parcial2JdhfEntities1())
             {
                 var existe = context.Programa.Find(programa.id);
+
                 existe.idCanal = programa.idCanal;
+                existe.idCategoriaPrograma = programa.idCategoriaPrograma;
                 existe.titulo = programa.titulo;
                 existe.descripcion = programa.descripcion;
                 existe.duracion = programa.duracion;
@@ -38,7 +40,7 @@ namespace ClnParcial2Jdhf
 
         public static int eliminar(int id)
         {
-            using (var context = new Parcial2JdhfEntities())
+            using (var context = new Parcial2JdhfEntities1())
             {
                 var existe = context.Programa.Find(id);
                 existe.estado = -1;
@@ -48,7 +50,7 @@ namespace ClnParcial2Jdhf
 
         public static Programa obtenerUno(int id)
         {
-            using (var context = new Parcial2JdhfEntities())
+            using (var context = new Parcial2JdhfEntities1())
             {
                 return context.Programa.Find(id);
             }
@@ -56,15 +58,17 @@ namespace ClnParcial2Jdhf
 
         public static List<Programa> listar()
         {
-            using (var context = new Parcial2JdhfEntities())
+            using (var context = new Parcial2JdhfEntities1())
             {
-                return context.Programa.Where(x => x.estado != -1).ToList();
+                return context.Programa
+                    .Where(x => x.estado != -1)
+                    .ToList();
             }
         }
 
         public static List<paProgramaListar_Result> listarPa(string parametro)
         {
-            using (var context = new Parcial2JdhfEntities())
+            using (var context = new Parcial2JdhfEntities1())
             {
                 return context.paProgramaListar(parametro).ToList();
             }
