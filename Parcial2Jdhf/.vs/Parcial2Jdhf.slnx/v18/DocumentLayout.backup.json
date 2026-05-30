@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\CORE i5\\Desktop\\SIS 457 2do parcial\\Parcial2Jdhf\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{831AAB2F-D154-49D6-AB1F-8C7F1F4D4A43}|CpParcial2Jdhf\\CpParcial2Jdhf.csproj|c:\\users\\core i5\\desktop\\sis 457 2do parcial\\parcial2jdhf\\cpparcial2jdhf\\frmprograma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{831AAB2F-D154-49D6-AB1F-8C7F1F4D4A43}|CpParcial2Jdhf\\CpParcial2Jdhf.csproj|solutionrelative:cpparcial2jdhf\\frmprograma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{831AAB2F-D154-49D6-AB1F-8C7F1F4D4A43}|CpParcial2Jdhf\\CpParcial2Jdhf.csproj|C:\\Users\\CORE i5\\Desktop\\SIS 457 2do parcial\\Parcial2Jdhf\\cpparcial2jdhf\\frmprograma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{831AAB2F-D154-49D6-AB1F-8C7F1F4D4A43}|CpParcial2Jdhf\\CpParcial2Jdhf.csproj|solutionrelative:cpparcial2jdhf\\frmprograma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDBACE34-D90C-46FA-B762-B79C12785D08}|ClnParcial2Jdhf\\ClnParcial2Jdhf.csproj|C:\\Users\\CORE i5\\Desktop\\SIS 457 2do parcial\\Parcial2Jdhf\\clnparcial2jdhf\\clnprograma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDBACE34-D90C-46FA-B762-B79C12785D08}|ClnParcial2Jdhf\\ClnParcial2Jdhf.csproj|solutionrelative:clnparcial2jdhf\\clnprograma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmPrograma.cs",
+              "DocumentMoniker": "C:\\Users\\CORE i5\\Desktop\\SIS 457 2do parcial\\Parcial2Jdhf\\CpParcial2Jdhf\\FrmPrograma.cs",
+              "RelativeDocumentMoniker": "CpParcial2Jdhf\\FrmPrograma.cs",
+              "ToolTip": "C:\\Users\\CORE i5\\Desktop\\SIS 457 2do parcial\\Parcial2Jdhf\\CpParcial2Jdhf\\FrmPrograma.cs",
+              "RelativeToolTip": "CpParcial2Jdhf\\FrmPrograma.cs",
+              "ViewState": "AgIAAIQAAAAAAAAAAADwv5oAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T21:22:57.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmPrograma.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\CORE i5\\Desktop\\SIS 457 2do parcial\\Parcial2Jdhf\\CpParcial2Jdhf\\FrmPrograma.cs",
+              "RelativeDocumentMoniker": "CpParcial2Jdhf\\FrmPrograma.cs",
+              "ToolTip": "C:\\Users\\CORE i5\\Desktop\\SIS 457 2do parcial\\Parcial2Jdhf\\CpParcial2Jdhf\\FrmPrograma.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CpParcial2Jdhf\\FrmPrograma.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T21:07:13.696Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClnPrograma.cs",
+              "DocumentMoniker": "C:\\Users\\CORE i5\\Desktop\\SIS 457 2do parcial\\Parcial2Jdhf\\ClnParcial2Jdhf\\ClnPrograma.cs",
+              "RelativeDocumentMoniker": "ClnParcial2Jdhf\\ClnPrograma.cs",
+              "ToolTip": "C:\\Users\\CORE i5\\Desktop\\SIS 457 2do parcial\\Parcial2Jdhf\\ClnParcial2Jdhf\\ClnPrograma.cs",
+              "RelativeToolTip": "ClnParcial2Jdhf\\ClnPrograma.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAwwEgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T20:14:17.702Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

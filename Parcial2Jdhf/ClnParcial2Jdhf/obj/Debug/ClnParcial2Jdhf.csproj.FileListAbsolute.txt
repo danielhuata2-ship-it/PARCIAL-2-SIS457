@@ -1,0 +1,15 @@
+C:\Users\CORE i5\Desktop\SIS 457 2do parcial\Parcial2Jdhf\ClnParcial2Jdhf\bin\Debug\ClnParcial2Jdhf.dll.config
+C:\Users\CORE i5\Desktop\SIS 457 2do parcial\Parcial2Jdhf\ClnParcial2Jdhf\bin\Debug\ClnParcial2Jdhf.dll
+C:\Users\CORE i5\Desktop\SIS 457 2do parcial\Parcial2Jdhf\ClnParcial2Jdhf\bin\Debug\ClnParcial2Jdhf.pdb
+C:\Users\CORE i5\Desktop\SIS 457 2do parcial\Parcial2Jdhf\ClnParcial2Jdhf\bin\Debug\CadParcial2Jdhf.dll
+C:\Users\CORE i5\Desktop\SIS 457 2do parcial\Parcial2Jdhf\ClnParcial2Jdhf\bin\Debug\EntityFramework.dll
+C:\Users\CORE i5\Desktop\SIS 457 2do parcial\Parcial2Jdhf\ClnParcial2Jdhf\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\CORE i5\Desktop\SIS 457 2do parcial\Parcial2Jdhf\ClnParcial2Jdhf\bin\Debug\CadParcial2Jdhf.pdb
+C:\Users\CORE i5\Desktop\SIS 457 2do parcial\Parcial2Jdhf\ClnParcial2Jdhf\bin\Debug\CadParcial2Jdhf.dll.config
+C:\Users\CORE i5\Desktop\SIS 457 2do parcial\Parcial2Jdhf\ClnParcial2Jdhf\bin\Debug\EntityFramework.xml
+C:\Users\CORE i5\Desktop\SIS 457 2do parcial\Parcial2Jdhf\ClnParcial2Jdhf\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\CORE i5\Desktop\SIS 457 2do parcial\Parcial2Jdhf\ClnParcial2Jdhf\obj\Debug\ClnParcial2Jdhf.csproj.AssemblyReference.cache
+C:\Users\CORE i5\Desktop\SIS 457 2do parcial\Parcial2Jdhf\ClnParcial2Jdhf\obj\Debug\ClnParcial2Jdhf.csproj.CoreCompileInputs.cache
+C:\Users\CORE i5\Desktop\SIS 457 2do parcial\Parcial2Jdhf\ClnParcial2Jdhf\obj\Debug\ClnParci.C2A5412A.Up2Date
+C:\Users\CORE i5\Desktop\SIS 457 2do parcial\Parcial2Jdhf\ClnParcial2Jdhf\obj\Debug\ClnParcial2Jdhf.dll
+C:\Users\CORE i5\Desktop\SIS 457 2do parcial\Parcial2Jdhf\ClnParcial2Jdhf\obj\Debug\ClnParcial2Jdhf.pdb
